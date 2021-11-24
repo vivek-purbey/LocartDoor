@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Font */
+        
+        @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+        /* Design */
+        
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        
+        html {
+            background-color: #ecf9ff;
+        }
+        
+        body {
+            color: #272727;
+            font-family: 'Quicksand', serif;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0;
+            padding: 1rem;
+        }
+        
+        .main {
+           
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 24px;
+            font-weight: 400;
+            text-align: center;
+        }
+        
+        img {
+            height: 300px;
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        
+        .btn {
+            color: #ffffff;
+            padding: 0.8rem;
+            font-size: 14px;
+            text-transform: uppercase;
+            border-radius: 4px;
+            font-weight: 400;
+            display: block;
+            width: 100%;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: transparent;
+        }
+        
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.12);
+        }
+        
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .cards_item {
+            display: flex;
+            position: relative;
+            padding: 1rem;
+        }
+        
+        @media (min-width: 40rem) {
+            .cards_item {
+                width: 50%;
+            }
+        }
+        
+        @media (min-width: 56rem) {
+            .cards_item {
+                width: 33.3333%;
+            }
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 0.25rem;
+            box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .card_image img{
+            width:500px;
+            height:400px;
+        }
+    
+        
+        .card_content {
+            padding: 1rem;
+            background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+        }
+        
+        .card_title {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin: 0px;
+        }
+        
+        .card_text {
+            color: #ffffff;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            margin-bottom: 1.25rem;
+            font-weight: 400;
+        }
+         
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        button{
+            outline:none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>RESTAURANTS</h1>
+        <ul class="cards">
+            
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="images/b.jpg" class="img-fluid"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">H3 Cafe</h2>
+                        <p class="card_text"></p>
+                        <a href="food-cards.html"><button class="btn card_btn">Order Now</button></a>
+                    </div>
+                </div>
+            </li>
+             <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="images/c.jpg" class="img-fluid"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">NH10 Dhaba</h2>
+                        <p class="card_text"></p>
+                        <a href="food-cards.html"><button class="btn card_btn">Order Now</button></a>
+                    </div>
+                </div>
+            </li>
+             <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="images/re.jpg" class="img-fluid"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Jalaram Bakery</h2>
+                        <p class="card_text"></p>
+                        <a href="food-cards.html"><button class="btn card_btn">Order Now</button></a>
+                    </div>
+                </div>
+            </li>
+             <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="str3.jpg" class="img-fluid"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Bikaner Sweets</h2>
+                        <p class="card_text"></p>
+                        <a href="food-cards.html"><button class="btn card_btn">Order Now</button></a>
+                    </div>
+                </div>
+            </li>
+              <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="str.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Anna Dosa</h2>
+                        <p class="card_text"></p>
+                        <a href="food-cards.html"><button class="btn card_btn">Order Now</button></a>
+                    </div>
+                </div>
+            </li>
+            <li class="cards_item">
+                <div class="card">
+                    <div class="card_image"><img src="staples1.jpg"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">CAD M CAD</h2>
+                        <p class="card_text"></p>
+                        <a href="food-cards.html"><button class="btn card_btn">Order Now</button></a>
+                    </div>
+                </div>
+            </li>
+            
+            <!-- <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://st2.depositphotos.com/3905595/6692/i/450/depositphotos_66929741-stock-photo-spices-parsley-olive-oil-and.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">SPICES</h2>
+                <p class="card_text"></p>
+               <a href="food-cards.html"><button class="btn card_btn">50% OFF</button></a>
+              </div>
+            </div>
+          </li> -->
+
+        </ul>
+    </div>
+
+   
+</body>
+
+</html>
