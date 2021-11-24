@@ -1,0 +1,32 @@
+/* Starting CSS of Home Page */
+body   {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.navbar{
+    box-shadow: 0 .5rem .3rem rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+/*#carousel{
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, .4);
+    z-index: 1;
+}*/
+.carousel-inner{
+    max-height: 38rem!important;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    transition: transform 1.2s ease;
+}
+
+/* Ending CSS of Home Page */
+
+
+    /*@media (min-width:360px) and (max-width:640px) {
+    .pro-box-section .pro-box img{
+    height:auto;
+    }*/
+
+    /* Ending CSS of Details Page */
+    #slide{
+       
+        display: inline;
+    }
