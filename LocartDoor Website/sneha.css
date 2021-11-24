@@ -1,0 +1,12 @@
+#carousel{
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, .4);
+    z-index: 1;
+}
+.carousel-inner{
+    max-height: 38rem!important;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    transition: transform 1.2s ease;
+}
+
+/* Ending CSS of Home Page */

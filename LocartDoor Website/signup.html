@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-Up Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+
+		.container{
+			margin: 5% 32% 0% 32%;
+			width: 35%;
+			border: ridge 2px green;
+			padding: 2%;
+     
+		}
+		body{
+      background-image: url("img/sign\ in\ bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 130vh;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2> LocartDoor Registration</h2>
+	<form action="vivek_signin.html" method="post">
+		<div class="form-group">
+    <label for="firstname">First Name</label>
+    <input type="text" class="form-control" id="exampleInputfirstname" name="firstname" placeholder="Your first name" required style="border-radius: 10px;">
+    </div>
+  <div class="form-group">
+    <label for="lastname">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputlastname" name="lastname" placeholder="Your last name" required style="border-radius: 10px;">
+  </div>
+  <div class="form-group">
+    <label for="phoneno">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputphoneno" name="phoneno" placeholder="Your phone no." required style="border-radius: 10px;">
+  </div>
+  <div class="form-group">
+    <label for="Email1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" style="border-radius: 10px;" placeholder="Your email address..." required>
+  </div>
+  <div class="form-group">
+    <label for="Password">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword" name="password" placeholder="Password" required style="border-radius: 10px;">
+  </div>
+  <div class="form-group">
+      <label for="Textarea">Message</label>
+      <textarea class="form-control" name="textarea" id="exampleInputTextarea" rows="3" placeholder="Your message here..." style="border-radius: 10px;"></textarea>
+  </div>
+  <!-- <button type="submit" class="btn btn-dark">Sign-up</button> -->
+  <a href="vivek_signin.html" class="btn btn-dark btn-block" style="border-radius: 50px; line-height: 50px;" 
+  tabindex="-1" role="button" aria-disabled="true">Sign-Up<i class="fas fa-long-arrow-alt-right" style="margin-left: 20px; margin-top: 10px;"></i></a>
+  </form>
+  </div>
+  
+</body>
+</html>

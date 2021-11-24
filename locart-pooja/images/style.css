@@ -1,0 +1,11 @@
+.tableMain
+{
+    border: 1px;
+    padding: 30px;
+    width: 50px;
+    height: 7%;
+    
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+ 
+}
